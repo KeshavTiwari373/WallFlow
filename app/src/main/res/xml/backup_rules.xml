@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cloud auto-backup (API <= 30) is quota-limited (~25 MB), so the image directories can't go in.
+     The database must then be excluded too: restoring rows whose files are gone would produce a
+     gallery of broken entries. DataStore settings (files/datastore/) remain backed up. -->
+<full-backup-content>
+    <exclude domain="file" path="wallpapers/" />
+    <exclude domain="file" path="thumbs/" />
+    <exclude domain="file" path="processed/" />
+    <exclude domain="file" path="upscaled/" />
+    <exclude domain="database" path="wallflow.db" />
+</full-backup-content>

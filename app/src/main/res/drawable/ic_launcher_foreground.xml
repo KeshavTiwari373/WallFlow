@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- A simple stacked-images "wallpaper" glyph. -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,38h32a4,4 0 0 1 4,4v20a4,4 0 0 1 -4,4H34a4,4 0 0 1 -4,-4V42a4,4 0 0 1 4,-4z" />
+    <path
+        android:fillColor="#C7C7FF"
+        android:pathData="M40,46m-4,0a4,4 0 1 0 8,0a4,4 0 1 0 -8,0" />
+    <path
+        android:fillColor="#C7C7FF"
+        android:pathData="M34,62l9,-11l7,8l5,-6l11,9z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.5"
+        android:pathData="M44,70h32a4,4 0 0 1 4,4v0H40v0a4,4 0 0 1 4,-4z" />
+</vector>

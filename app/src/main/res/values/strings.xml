@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">WallFlow</string>
+
+    <!-- Gallery -->
+    <string name="gallery_title">WallFlow</string>
+    <string name="import_wallpapers">Import wallpapers</string>
+    <string name="empty_gallery_title">No wallpapers yet</string>
+    <string name="empty_gallery_subtitle">Tap the + button to import images from your gallery.</string>
+    <string name="filter_all">All</string>
+
+    <!-- Detail -->
+    <string name="apply_wallpaper">Apply wallpaper</string>
+    <string name="target_home">Home screen</string>
+    <string name="target_lock">Lock screen</string>
+    <string name="target_both">Both</string>
+    <string name="edit_tags">Edit tags</string>
+    <string name="add_tag">Add tag</string>
+    <string name="delete_wallpaper">Delete wallpaper</string>
+    <string name="delete_confirm_title">Delete this wallpaper?</string>
+    <string name="delete_confirm_message">This removes the image from WallFlow. It does not affect your gallery.</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="used_count">Used %1$d times</string>
+    <string name="never_used">Never used</string>
+    <string name="last_used">Last used %1$s</string>
+    <string name="applied_toast">Wallpaper applied</string>
+    <string name="apply_failed_toast">Failed to apply</string>
+    <string name="back">Back</string>
+
+    <!-- Editor -->
+    <string name="edit">Edit</string>
+    <string name="save_edit">Save</string>
+    <string name="edited_badge">Edited</string>
+    <string name="blur_fill">Blur fill</string>
+    <string name="preview_overlay">Preview</string>
+    <string name="overlay_home">Home</string>
+    <string name="overlay_lock">Lock</string>
+    <string name="overlay_none">None</string>
+    <string name="filter_label">Filter</string>
+    <string name="filter_none">Original</string>
+    <string name="filter_amoled">AMOLED</string>
+    <string name="filter_vibrant">Vibrant</string>
+    <string name="filter_soft">Soft</string>
+    <string name="filter_duotone">Duotone</string>
+    <string name="filter_grain">Grain</string>
+    <string name="intensity">Intensity</string>
+    <string name="dim_lock">Dim lock screen</string>
+    <string name="dynamic_color_hint">Tip: this wallpaper pairs with system dynamic color</string>
+    <string name="auto_crop">Auto</string>
+    <string name="enhance_hd">Enhance HD</string>
+    <string name="enhanced_dims">Enhanced: %1$d×%2$d → %3$d×%4$d</string>
+    <string name="enhanced_already_hd">Already high resolution — sharpening applied</string>
+    <string name="enhance_failed">Could not enhance</string>
+    <string name="depth_effect">Depth effect</string>
+    <string name="depth_band_hint">Clock band — drag</string>
+    <string name="depth_no_subject">Saved — but no clear subject was found, so the depth effect wasn\'t applied.</string>
+    <string name="save_failed">Couldn\'t save the edit. Try a smaller image or fewer effects.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Auto-rotation</string>
+    <string name="rotation_mode">Rotation mode</string>
+    <string name="mode_off">Off</string>
+    <string name="mode_interval">Timed interval</string>
+    <string name="mode_screen_on">Every screen ON</string>
+    <string name="mode_off_desc">Wallpaper changes only when you apply one manually.</string>
+    <string name="mode_interval_desc">Automatically change on a fixed schedule.</string>
+    <string name="mode_screen_on_desc">Change the lock screen each time the screen turns on. Runs a foreground service.</string>
+    <string name="interval_label">Interval</string>
+    <string name="target_label">Apply to</string>
+    <string name="filter_tag_label">Limit to tag</string>
+    <string name="filter_tag_none">Any tag</string>
+
+    <string name="battery_opt_title">Background activity</string>
+    <string name="battery_opt_desc">For the Every screen ON mode to keep working reliably, exempt WallFlow from battery optimization.</string>
+    <string name="battery_opt_action">Battery settings</string>
+
+    <!-- Quick Settings tile -->
+    <string name="rotate_now">Next wallpaper</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Import from anywhere</string>
+    <string name="onboarding_desc_1">Add images from your gallery, or share a photo from any app straight into WallFlow.</string>
+    <string name="onboarding_title_2">Perfect fit</string>
+    <string name="onboarding_desc_2">Crop, enhance, and style each wallpaper so it looks right on your exact screen.</string>
+    <string name="onboarding_title_3">Auto-rotate</string>
+    <string name="onboarding_desc_3">Let your collection rotate on a schedule or on every screen wake — never repeating until it cycles.</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_start">Get started</string>
+
+    <!-- Foreground service notification -->
+    <string name="rotation_channel_name">Wallpaper rotation</string>
+    <string name="rotation_channel_desc">Shows while WallFlow is rotating your lock-screen wallpaper.</string>
+    <string name="rotation_notification_title">WallFlow is active</string>
+    <string name="rotation_notification_text">Rotating your lock-screen wallpaper on every screen wake.</string>
+
+    <!-- Intervals -->
+    <string name="interval_15m">15 minutes</string>
+    <string name="interval_30m">30 minutes</string>
+    <string name="interval_1h">1 hour</string>
+    <string name="interval_3h">3 hours</string>
+    <string name="interval_6h">6 hours</string>
+    <string name="interval_12h">12 hours</string>
+    <string name="interval_1d">Daily</string>
+</resources>

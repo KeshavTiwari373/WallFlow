@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="wallflow_background">#FFFBFE</color>
+    <color name="wallflow_background_dark">#1C1B1F</color>
+    <color name="ic_launcher_background">#5B5BD6</color>
+</resources>

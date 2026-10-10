@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base theme; Compose drives the actual colors via MaterialTheme. This is used for the
+         splash/window background before Compose takes over. -->
+    <style name="Theme.WallFlow" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/wallflow_background</item>
+    </style>
+</resources>

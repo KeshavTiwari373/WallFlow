@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cloud backup is quota-limited, so images stay out — and then the database must stay out too,
+     or a restore would produce rows pointing at missing files. Device-to-device transfer has no
+     practical size limit, so it moves everything: a new phone keeps the full library. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="file" path="wallpapers/" />
+        <exclude domain="file" path="thumbs/" />
+        <exclude domain="file" path="processed/" />
+        <exclude domain="file" path="upscaled/" />
+        <exclude domain="database" path="wallflow.db" />
+    </cloud-backup>
+    <device-transfer />
+</data-extraction-rules>
